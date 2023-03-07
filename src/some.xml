@@ -1,0 +1,23 @@
+<report>
+  <reportId>1</reportId>
+  <controls>
+    <control>
+      <controlId>entityId</controlId>
+      <controlType>DROPDOWN</controlType>
+      <controlLabel>Entity Types</controlLabel>
+      <controlDataType>string</controlDataType>
+      <dependendControlId>entity</dependendControlId>
+      <isQueryTemplate>true</isQueryTemplate>
+      <query>120</query>
+    </control>
+    <control>
+      <controlId>entity</controlId>
+      <controlType>MULTILIST</controlType>
+      <controlLabel>Entities</controlLabel>
+      <controlDataType>string</controlDataType>
+      <dependendControlId>fundids</dependendControlId>
+      <isQueryTemplate>true</isQueryTemplate>
+      <query>10</query>
+    </control>
+  </controls>
+</report>
